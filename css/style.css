@@ -1,0 +1,418 @@
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	background: repeating-linear-gradient(black, purple, lightblue, blue, navy, black);
+}
+
+.good {
+	width: 100%;
+	background: repeating-linear-gradient(darkblue, blue, lightblue, white, springgreen, green, darkgreen, darkblue);
+}
+
+.bad {
+	width: 100%;
+	background: repeating-linear-gradient(black, darkred, red, white, red, black);
+}
+
+#fixed {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 75px; 
+}
+
+.label {
+	text-decoration: none;
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+	text-shadow: 2px 2px 9px blue;
+	background: repeating-linear-gradient(lightblue, white, lightblue);
+	border: 3px groove black;
+	width: auto;
+	margin: -70px 30% 0 30%;
+	color: navy;
+	box-shadow: 0px 5px 5px cyan;
+	border-radius: 10px;
+}
+
+#goodlabel {
+	background: repeating-linear-gradient(orange, yellow, white, yellow, orange);
+	box-shadow: 0px 5px 5px yellow;
+	color: green;
+	text-shadow: 2px 2px 9px cyan;
+}
+
+#badlabel {
+	background: repeating-linear-gradient(red, white, red);
+	box-shadow: 0px 5px 5px red;
+	color: black;
+	text-shadow: 2px 2px 9px red;
+}
+
+div a {
+	text-decoration: none;
+}
+
+.yy1,
+.yy2 {
+	height: 75px;
+	border: 3px groove black;
+    background: repeating-linear-gradient(lightblue, white, lightblue);
+	box-shadow: 0px 5px 5px cyan;
+	border-radius: 10px;
+}
+
+.y1 {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.yy2 {
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+#badyy1,
+#badyy2 {
+	box-shadow: 0px 5px 5px red;
+}
+
+#goodyy1,
+#goodyy2 {
+	box-shadow: 0px 5px 5px yellow;
+}
+
+header {
+	margin: 125px 5% 50px 5%;
+	padding: 5px 2.5%;
+	text-align: center;
+	text-shadow: 2px 2px 9px blue;
+	font-weight: bold;
+	background: repeating-linear-gradient(black, purple, lightblue, blue, navy);
+	border: 3px groove black;
+	width: auto;
+	box-shadow: 0px 10px 5px cyan;
+	border-radius: 10px;
+}
+
+h1 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 3em;
+	margin: 5px 0 10px 0;
+	padding: 5px 1% 10px 1%;
+	background: repeating-linear-gradient(lightblue, white, lightblue);
+	border: 3px groove cyan;
+	width: auto;
+	color: navy;
+	box-shadow: 0px 5px 5px cyan;
+	border-radius: 10px;
+}
+
+h2 {
+	font-family: 'Shadows Into Light', cursive;
+	letter-spacing: 1.5px;
+	margin: 5px 2% 10px 2%;
+	padding: 5px 1% 10px 1%;
+	background: repeating-linear-gradient(lightblue, white, lightblue);
+	border: 3px groove cyan;
+	width: auto;
+	color: navy;
+	box-shadow: 0px 5px 5px cyan;
+	border-radius: 10px;
+}
+
+nav {
+	margin: 0 5%;
+	background: repeating-linear-gradient(black, purple, lightblue, blue, navy);
+	border: 3px groove black;
+	box-shadow: 0px 10px 5px cyan;
+	border-radius: 10px;
+}
+
+ul {
+	width: auto;
+	margin: 15px 0;
+	padding: 0 5%;
+	white-space: nowrap;
+}
+
+.nav {
+	display: inline-block;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: navy;
+	text-shadow: 2px 2px 9px blue;
+	width: 13%;
+	margin: 0 10%;
+	padding: 5px 0:
+}
+.badnav {
+	background: repeating-linear-gradient(black, darkred, red, white, red, black);
+	color: black;
+	text-shadow: 2px 2px 9px red;
+	box-shadow: 0px 10px 5px red;
+	margin-top: 150px;
+}
+
+.goodnav {
+	background: repeating-linear-gradient(orange, yellow, white, yellow, orange);
+	color: green;
+	text-shadow: 2px 2px 9px springgreen;
+	box-shadow: 0px 10px 5px yellow;
+	margin-top: 150px;
+}
+
+#bada {
+	color: black;
+	text-shadow: 2px 2px 9px red;
+}
+
+#gooda {
+	color: green;
+	text-shadow: 2px 2px 9px springgreen;
+}
+
+a:hover {
+	color: lightgrey;
+}
+
+h3 {
+	font-family: 'Shadows Into Light', cursive;
+	letter-spacing: 1.5px;
+	font-size: 2em;
+	text-align: center;
+	color: navy;
+	text-shadow: 2px 2px 9px blue;
+	width: auto;
+	margin: 50px 10% -20px 10%;
+	background: repeating-linear-gradient(lightblue, white, lightblue);
+	border: 3px groove black;
+	box-shadow: 0px 10px 5px cyan;
+	border-radius: 10px;
+}
+
+#goodheader {
+	text-align: justify;
+	font-size: 1.25em;
+	margin: 50px 15% 10px 15%;
+	width: auto;
+	border: 3px groove black;
+	padding: 5%;
+	background: repeating-linear-gradient(orange, yellow, white, yellow, orange);
+	box-shadow: 0px 5px 5px yellow;
+	color: green;
+	text-shadow: 2px 2px 9px cyan;
+}
+
+#badheader {
+	text-align: justify;
+	font-size: 1.25em;
+	margin: 50px 15% 10px 15%;
+	width: auto;
+	border: 3px groove black;
+	padding: 5%;
+	background: repeating-linear-gradient(red, white, red);
+	box-shadow: 0px 5px 5px red;
+	color: black;
+	text-shadow: 2px 2px 9px red;
+}
+
+.section {
+	text-align: justify;
+	font-size: 1.25em;
+	margin: 50px 15%;
+	width: auto;
+	border: 3px groove black;
+	padding: 5%;
+    background: repeating-linear-gradient(lightblue, white, lightblue);
+	box-shadow: 0px 10px 5px cyan;
+	border-radius: 10px;
+}
+
+.homepics {
+	width: 50%;
+	margin: 50px 25% 25px 25%;
+	border: 3px groove black;
+    background: repeating-linear-gradient(lightblue, white, lightblue);
+	box-shadow: 0px 10px 5px cyan;
+	border-radius: 10px;
+}
+
+#bluesky {
+	width: 50%;
+	margin: 50px 25% 25px 25%;
+	border: 3px groove black;
+    background: repeating-linear-gradient(lightblue, white, lightblue);
+	box-shadow: 0px 10px 5px cyan;
+	border-radius: 10px;
+}
+
+#magichour {
+	width: 50%;
+	margin: 50px 25% 25px 25%;
+	border: 3px groove black;
+    background: repeating-linear-gradient(lightblue, white, lightblue);
+	box-shadow: 0px 10px 5px cyan;
+	border-radius: 10px;
+}
+
+#bigyin {
+	width: 50%;
+	margin: 50px 25% 10px 25%;
+	border: 3px groove black;
+    background: repeating-linear-gradient(lightblue, white, lightblue);
+	box-shadow: 0px 10px 5px cyan;
+	border-radius: 10px;
+}
+
+#cosmicwindow {
+	width: 50%;
+	margin: 25px 25% 25px 25%;
+	border: 3px groove black;
+    background: repeating-linear-gradient(lightblue, white, lightblue);
+	box-shadow: 0px 10px 5px cyan;
+	border-radius: 10px;
+}
+
+.goodpic {
+	width: 50%;
+	margin: 50px 25% 25px 25%;
+	border: 3px groove black;
+    background: repeating-linear-gradient(springgreen, white, darkgreen);
+	box-shadow: 0px 10px 5px springgreen;
+	border-radius: 10px;
+}
+
+.badpic {
+	width: 50%;
+	margin: 50px 25% 25px 25%;
+	border: 3px groove black;
+    background: repeating-linear-gradient(black, darkred, red, white, red, black);
+	box-shadow: 0px 10px 5px red;
+	border-radius: 10px;
+}
+
+.disclaimer {
+	text-align: center;
+	font-size: 1.25em;
+	line-height: 1.5;
+	padding: 10px;
+	color: lightgrey;
+	text-shadow: 2px 2px 9px cyan;
+}
+
+#gooddisclaimer {
+	color: black;
+	text-shadow: 2px 2px 9px springgreen;
+}
+
+#baddisclaimer {
+	color: black;
+	text-shadow: 2px 2px 9px red;
+}
+
+footer {
+	font-size: 1.5em;
+	font-weight: bold;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.slider1,
+.slider2 {
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.slider1 {
+	float: left;
+	width: 15%;
+	margin: -5px 0 0 0;
+	color: darkgreen;
+	text-shadow: 5px 5px 15px darkgreen;
+}
+
+#foo {
+	float: left;
+	display: inline-block;
+	width: 70%;
+	margin: none;
+	padding: none;
+}
+
+.slider2 {
+	float: right;
+	width: 13%;
+	margin: -5px 0 0 0;
+	color: tomato;
+	text-shadow: 5px 5px 15px tomato;
+}
+
+#badslider2 {
+	text-shadow: 5px 5px 15px black;
+}
+
+#goodslider1 {
+	text-shadow: 5px 5px 15px black;
+}
+
+.copyright {
+	font-size: 1em;
+	text-align: center;
+	clear: both;
+	color: #ccc;
+	text-shadow: 2px 2px 9px black;
+	margin-top: 75px;
+}
+
+#goodcopyright {
+	color: black;
+	text-shadow: 2px 2px 9px springgreen;
+	
+}
+
+#badcopyright {
+	color: black;
+	text-shadow: 2px 2px 9px red;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

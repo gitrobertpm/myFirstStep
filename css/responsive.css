@@ -1,0 +1,85 @@
+
+@media screen and (max-width: 1200px) {
+
+h1 {
+	font-size: 2em;
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+#foo {
+	width: 65%;
+}
+
+}
+
+@media screen and (max-width: 750px) {
+
+.label {
+	font-size: 2em;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1em
+	
+}
+
+footer {
+	font-size: 1em;
+
+}
+
+#foo {
+	width: 65%;
+}
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+.label {
+	font-size: 1em;
+}
+
+h1 {
+	font-size: 1em;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+a {
+	font-size: 1em;
+}
+
+
+#foo {
+	width: 62.5%;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+
+a {
+	font-size: 1em;
+}
+
+footer {
+	font-size: 1em;
+}
+
+
+#foo {
+	width: 60%;
+}
+
+}
